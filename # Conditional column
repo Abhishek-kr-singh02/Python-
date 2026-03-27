@@ -1,0 +1,97 @@
+# Conditional column 
+
+# if-elif-else statement
+# if :
+age=21
+if(age>=18) :
+    print("apply for drive & vote")
+
+age=21
+if(age>=18) :
+    print("apply for drive & vote")
+
+light="green"
+if(light=="red") :
+    print("stop")
+if(light=="yellow"):
+    print("wait")
+if(light=="green"):
+    print("go")
+
+# elif : 
+
+light="green"
+if(light=="red") :
+    print("stop")
+elif(light=="yellow"):
+    print("wait")
+elif(light=="green"):
+    print("go")
+
+light="green"
+if(light=="red") :
+    print("stop")
+elif(light=="green"):
+    print("go")
+elif(light=="yellow"):
+    print("wait")
+
+no=5
+if(no < 2):
+    print("greater than 2")
+elif(no < 3):
+    print("greater than 3")
+
+# Else statement
+
+light="pink"
+if(light=="red") :
+    print("stop")
+elif(light=="green"):
+    print("go")
+elif(light=="yellow"):
+    print("wait")
+else:
+    print("light is broken")
+
+age=16
+if(age>=18):
+    print("can vote")  #(space=indentation)
+else:
+    print("can't vote")
+
+marks= 64
+if(marks>=90):
+    print("A")
+elif(marks>=80 and  marks<=90):
+    print("B")
+elif(marks>=70 and marks<=80):
+    print("C")
+elif(marks>=60 and marks<=70):
+    print("D")
+else:
+    print("F")
+
+# OR
+marks= int(input("enter your marks:"))
+if(marks>=90):
+    print("A")
+elif(marks>=80 and  marks<=90):
+    print("B")
+elif(marks>=70 and marks<=80):
+    print("C")
+elif(marks>=60 and marks<=70):
+    print("D")
+else:
+    print("F")
+
+# Nesting 
+age=95
+if(age>=17):
+    if(age>80):
+        print("can drive")
+    else:
+        print("cannot drive")
+else:
+    print("cannot drive")
+

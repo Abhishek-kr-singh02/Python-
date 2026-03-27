@@ -1,0 +1,79 @@
+# string statement
+
+str1 = "my name is abhishek kr singh. \ni am 21 years old"
+print(str1)
+
+#concatenation = (str + str) 
+
+str1= "abhishek"
+str2= "kumar"
+str3= "singh"
+final_str= str1+" "+str2+" "+str3
+print(final_str)
+
+# length of str = "total no of digit"
+
+str1= "abhishek"
+len1= len(str1)
+print(len1)
+str2= "kumar"
+len2= len(str2)
+print(len2)
+str3= "singh"
+len3= len(str3)
+print(len3)
+
+final_str= str1+" "+str2+" "+str3
+print(final_str)
+print(len(final_str ))
+
+#indexing "Position"
+
+char= "abhishek kumar singh"
+print(char[6])
+
+#slicing "st : end"
+
+char= "abhishek kumar singh"
+print(char[:6]) #0:4 
+print(char[9:13]) #9:13
+
+# slicing negative index
+
+char1= "orange"
+print(char1[-6:-2])
+
+# string functions ( return true if substr is ending)
+
+char2= "i am studying a python on youtube"
+print(char2.endswith("ube"))
+
+char2= "i am studying a python on youtube"
+print(char2.endswith("stu"))
+
+# str. capatilize ("capatilize 1st character")
+
+char2= "i am studying a python on youtube"
+print(char2.capitalize())
+
+# str.replace ("old value to new value")
+
+char2= "i am studying a python on youtube"
+print(char2.replace("o", "a"))
+
+char2= "i am studying a python on youtube"
+print(char2.replace("python","power BI"))
+
+#str.find ()
+
+char2= "i am studying a python on youtube"
+print(char2.find("t"))
+
+char2= "i am studying a python on youtube"
+print(char2.find("Q"))
+
+#str.count()
+
+char2= "i am studying a python on youtube"
+print(char2.count("t"))
+

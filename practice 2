@@ -1,0 +1,13 @@
+# write a program(wap) to input user's first name & print its length 
+
+name= input("what is your name: ")
+print("lenght of your name is" , len(name))
+
+# Write a Programe to occurance of $ ina string
+
+str="hi, i am $ simbol. i am a world wide currency $, in india the price of $1 is 90"
+print(str.count("$"))
+
+# Practice: 2.1
+
+#write a program to check if a number entered by the user is even or odd.
